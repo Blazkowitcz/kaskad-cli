@@ -1,0 +1,37 @@
+{
+  "name": "kaskad-cli",
+  "version": "1.0.0",
+  "description": "Kaskad client CLI",
+  "main": "index.js",
+  "bin": {
+    "kaskadcli": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blazkowitcz/kaskad-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blazkowitcz/kaskad-cli/issues"
+  },
+  "homepage": "https://github.com/Blazkowitcz/kaskad-cli#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "fs-extra": "^11.3.2",
+    "webtorrent": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.10.0",
+    "@types/webtorrent": "^0.110.1",
+    "typescript": "^5.9.3"
+  }
+}
